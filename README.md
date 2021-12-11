@@ -1,6 +1,6 @@
 # Melody
 ## проект выполнил Новиков Данила
 ### технологии
--html
--scc
--javascript
+ -html
+ -scc
+ -javascript
