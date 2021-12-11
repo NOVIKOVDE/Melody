@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-color: #635854;
+  padding-top: 12px; /* отступ сверху */
+  padding-bottom: 12px; /* отступ снизу */
+  border-bottom: 4px solid #3596f5; /* синяя полоска под шапкой  */
+}
+.navbar {
+  max-width: 1280px; /* ширина */
+  margin: auto; /* выравнивание авто */
+  display: flex; /* сделали блок гибким */
+  justify-content: space-between; /* первый блок смещается к левому краю; последний к правому; остальные выравниваются посередине */
+  align-items: center; /* выравнены по центру по вертикали */
+}
+.navbar-menu {
+  margin: 0; /* обнуление внешних отступов */
+  padding: 0; /* обнуление внутренних отступов */
+  list-style: none; /* отключаем точки у списка */
+  display: flex;
+  text-align: center; /* выравнивание по центру */
+}
+.navbar-item {
+  margin-left: 40px; /* отступ слева */
+  margin-right: 40px; /* отступ справа */
+}
+.navbar-link {
+  text-decoration: none; /* убрали декорации текста*/
+  color: #fff;
+}
+.navbar-text {
+  display: block; /* становится блочным элементом */
+  color: #fff;
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.navbar-contacts {
+  text-align: right;
+}
+.navbar-phone {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #fff;
+}
